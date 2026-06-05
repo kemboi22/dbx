@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, ref, watch, nextTick } from "vue";
 import type { CSSProperties } from "vue";
 import { useI18n } from "vue-i18n";

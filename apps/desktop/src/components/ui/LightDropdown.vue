@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, type Component } from "vue";
 import { Check, ChevronDown } from "@lucide/vue";
 

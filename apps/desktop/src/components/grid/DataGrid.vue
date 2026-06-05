@@ -3,7 +3,7 @@ import { ref } from "vue";
 const globalDdlOpen = ref(false);
 </script>
 
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import {
   computed,
   nextTick,

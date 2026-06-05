@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, ref, watch } from "vue";
 import { useI18n } from "vue-i18n";
 import { CheckSquare, Loader2, Search, Square } from "@lucide/vue";

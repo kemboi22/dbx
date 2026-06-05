@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, nextTick, onMounted, onUnmounted, ref } from "vue";
 import { uuid } from "@/lib/utils";
 import { useI18n } from "vue-i18n";

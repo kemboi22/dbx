@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, defineComponent, h, ref, type VNodeChild } from "vue";
 import { ChevronDown, ChevronRight } from "@lucide/vue";
 import { Button } from "@/components/ui/button";

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, nextTick, ref, watch } from "vue";
 import type { HTMLAttributes } from "vue";
 import { Check, ChevronDown, Search } from "@lucide/vue";

@@ -1,4 +1,4 @@
-import { createApp } from "vue";
+import { createVaporApp, vaporInteropPlugin } from "@vue/runtime-vapor";
 import { createPinia } from "pinia";
 import VueVirtualScroller from "vue-virtual-scroller";
 import "vue-virtual-scroller/dist/vue-virtual-scroller.css";
@@ -81,7 +81,8 @@ async function bootstrap() {
   await loadSavedLocale();
   console.log("[STARTUP] locale ready");
 
-  const app = createApp(App);
+  const app = createVaporApp(App);
+  app.use(vaporInteropPlugin);
   app.use(createPinia());
   app.use(i18n);
   app.use(VueVirtualScroller);

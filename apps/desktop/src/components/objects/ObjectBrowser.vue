@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, ref, watch } from "vue";
 import { RecycleScroller } from "vue-virtual-scroller";
 import { useSqlHighlighter } from "@/composables/useSqlHighlighter";

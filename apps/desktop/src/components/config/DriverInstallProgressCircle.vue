@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 const props = defineProps<{
   percent: number | null;
   title: string;

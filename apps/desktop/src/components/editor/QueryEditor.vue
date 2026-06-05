@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { ref, onMounted, onBeforeUnmount, onActivated, onDeactivated, watch, shallowRef, computed } from "vue";
 import { Play, Copy, TextSelect } from "@lucide/vue";
 import { useI18n } from "vue-i18n";

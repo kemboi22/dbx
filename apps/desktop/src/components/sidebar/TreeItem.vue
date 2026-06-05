@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { ref, computed, nextTick, watch, onBeforeUnmount } from "vue";
 import { useSqlHighlighter } from "@/composables/useSqlHighlighter";
 import { useI18n } from "vue-i18n";

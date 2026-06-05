@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { useI18n } from "vue-i18n";
 import { FilePlus2, Plus, History, Download, Database, Search, ShieldCheck, Sparkles } from "@lucide/vue";
 import DatabaseIcon from "@/components/icons/DatabaseIcon.vue";

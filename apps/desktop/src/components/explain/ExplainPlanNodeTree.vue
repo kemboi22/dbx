@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { ChevronRight } from "@lucide/vue";
 import type { ExplainPlanNode } from "@/lib/explainPlan";
 

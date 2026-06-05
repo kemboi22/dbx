@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { Minus, Square, Copy, X } from "@lucide/vue";
 
 defineProps<{

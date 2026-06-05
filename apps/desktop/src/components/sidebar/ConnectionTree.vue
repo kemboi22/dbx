@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { ref, computed, nextTick, watch, type Component } from "vue";
 import { useI18n } from "vue-i18n";
 import { Search, X, ListFilter, Crosshair, Server, Database, FolderTree, Table2, Eye, RotateCcw } from "@lucide/vue";

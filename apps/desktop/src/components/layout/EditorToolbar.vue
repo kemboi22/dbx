@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup vapor lang="ts">
 import { computed, watchEffect } from "vue";
 import { useI18n } from "vue-i18n";
 import {
